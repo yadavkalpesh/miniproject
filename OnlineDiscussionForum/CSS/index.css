@@ -1,0 +1,115 @@
+body{
+
+     background-color: rgb(143, 141, 145);
+    background-image: url('/img/pp\ \(4\).jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    
+}
+
+
+.nav-wrapper{
+  background-color: rgb(110, 108, 108);
+  
+}
+
+
+.Online-icon{
+    
+font-size: 100;
+
+}
+
+.nav-item active{
+    margin:0;
+    margin-right: 70px;
+    height: 31px;
+    width: 212px;
+    border-radius: 5px;
+    background-color: rgb(177, 177, 214);
+}
+
+
+.nav-icons{
+    font-size: 1.5rem;
+    color: rgb(123, 126, 126);
+    text-decoration: none;
+
+}
+
+
+.card{
+    height: 856px;
+    width: 615px;
+      
+}
+
+.card-img-top{
+    height: 512px;
+
+}
+
+.page-name{
+    margin: 0;
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+
+
+.Upload
+{
+    background-color: rgb(97, 96, 96);
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  .mask-custom {
+    backdrop-filter: contrast(140%) brightness(100%) saturate(100%) sepia(50%) hue-rotate(0deg) grayscale(0%) invert(0%) blur(0px);
+    mix-blend-mode: lighten;
+    background: rgba(161, 44, 199, 0.31);
+    opacity: 1;
+  }

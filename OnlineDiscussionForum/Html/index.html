@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="../CSS/index.css">
+  <link rel="stylesheet" href="../Html/forum1.html">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <title> Online Discussion Forum </title>
+</head>
+  
+
+<body>
+
+  <div class="nav-wrapper">
+
+
+    <div class="container">
+
+      <nav class="navbar navbar-expand-lg p-3 mb-2 bg-dark text-white">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+
+
+            <a class="navbar-brand" href="#">My Fourm</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <a class="nav-link active" href="../Html/forum1.html" tabindex="-1" aria-disabled="true">Post</a>
+                </li>
+
+              </ul>
+
+
+
+              <form class=" form-inline ms-auto my-2 my-lg-0 d-flex justify-content-end">
+
+                <a href="#" class="nav-link nav-icons"></a> <i class="fa-solid fa-hand-holding-heart"></i>
+                <a href="#" class="nav-link nav-icons"></a> <i class="fa-solid fa-users"></i>
+                <a href="#" class="nav-link nav-icons"></a> <i class="fa-solid fa-comments-question-check"></i>
+              </form>
+
+
+            </div>
+
+
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Add Questions
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true" data-bs-backdrop="false">
+
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+
+                  <div class="modal-header align-items-center">
+
+                    <h5 class="modal-title" id="exampleModalLabel">Create Post</h5>
+                    <button type="text-dark text-center w-" class="btn-close" data-bs-dismiss="modal"
+                      aria-label="Close"></button> m-
+                  </div>
+                  <div class="modal-body">
+
+                    <div class="my-1 p-1">
+
+                      <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center">
+                          <div class="p-2">
+                            <img src="https://source.unsplash.com/collection/happy-pepole" alt="avatar"
+                              class="rounded-circle" style="width: 38; height:38px; object-fit:cover;" </div> <div>
+                            <p class="m-0 fw-bold">Shiva</p>
+
+                            <select class="form-select border-0 bg-gray w-75 fs-7">
+
+                              <option value="public">Public</option>
+                              <option value="pin to top">Pin to Top</option>
+                              <option value="hide">Hide</option>
+                            </select>
+                          </div>
+
+                          <div>
+
+                            <textarea id="" cols="30" rows="5" class="form-control border-0"></textarea>
+
+                          </div>
+                        </div>
+
+
+                        <div class="d-flex align-itmes-center justify-content-between">
+                          <img src="../img/pp (1).jpg" alt="from qa" type="button"
+                            style="width:30px; height:30px;object-fit:cover;">
+                          <i class="far fa-laugh-wink fs-5 text-muted" type="button"></i>
+
+                        </div>
+                        <div class="d-felx justify-content-between border border-1 border-light rounded p-3mt-3">
+                          <p class="m-0 ">Add to your Post</p>
+                          <div>
+                            <i class="fas fa-image fs-5 text-success mx-1" type="button"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add Questions</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+
+
+                    <div class="dropdown">
+
+
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Public
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Others will see your identity alongside this question on
+                            your profile and in their feeds.
+                          </a></li>
+
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                          Limited
+                        </button>
+                        <li><a class="dropdown-item" href="#">Your identity will be shown but this question will not
+                            appear in your followers' feeds or your profile.</a></li>
+                        <li><a class="dropdown-item" href="#"></a></li>
+                      </ul>
+                    </div>
+
+ 
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </nav>
+
+
+    </div>
+    <!--nav end here -->
+
+ 
+  <p class="text-uppercase">What do you want to ask or share?</p>
+
+
+  </div>
+
+
+
+
+  
+      <script src="https://kit.fontawesome.com/e70b098f67.js" crossorigin="anonymous"></script>
+
+
+
+       
+        <!-- Background image -->
+        <div
+          class="bg-image"
+          style="
+            background-image: url('pp(1).jpg');
+            height: 100vh;
+          "
+        >
+          <div class="mask mask-custom"></div>
+        </div>
+        <!-- Background image -->
+</body>
+
+</html>
